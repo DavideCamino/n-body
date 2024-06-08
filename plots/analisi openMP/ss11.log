@@ -1,0 +1,124 @@
+strong scalability static 4096
+4096 1
+# elapsed time (init): 0.0759135s
+# elapsed time (simulation): 1.17465s
+4096 2
+# elapsed time (init): 0.0570259s
+# elapsed time (simulation): 0.587974s
+4096 4
+# elapsed time (init): 0.0334374s
+# elapsed time (simulation): 0.293908s
+4096 6
+# elapsed time (init): 0.0234319s
+# elapsed time (simulation): 0.196787s
+4096 8
+# elapsed time (init): 0.0181586s
+# elapsed time (simulation): 0.147369s
+4096 10
+# elapsed time (init): 0.0147942s
+# elapsed time (simulation): 0.119164s
+4096 12
+# elapsed time (init): 0.0125424s
+# elapsed time (simulation): 0.0990411s
+4096 14
+# elapsed time (init): 0.0109163s
+# elapsed time (simulation): 0.0863246s
+4096 16
+# elapsed time (init): 0.00983862s
+# elapsed time (simulation): 0.073825s
+4096 18
+# elapsed time (init): 0.00879614s
+# elapsed time (simulation): 0.0682608s
+4096 20
+# elapsed time (init): 0.0142604s
+# elapsed time (simulation): 0.0635596s
+4096 22
+# elapsed time (init): 0.00746213s
+# elapsed time (simulation): 0.0546791s
+4096 24
+# elapsed time (init): 0.00692721s
+# elapsed time (simulation): 0.0536829s
+4096 26
+# elapsed time (init): 0.00656957s
+# elapsed time (simulation): 0.0493802s
+4096 28
+# elapsed time (init): 0.00643893s
+# elapsed time (simulation): 0.0445914s
+4096 30
+# elapsed time (init): 0.00598369s
+# elapsed time (simulation): 0.04397s
+4096 32
+# elapsed time (init): 0.00562333s
+# elapsed time (simulation): 0.0370359s
+4096 34
+# elapsed time (init): 0.00554305s
+# elapsed time (simulation): 0.0394751s
+4096 36
+# elapsed time (init): 0.00528433s
+# elapsed time (simulation): 0.0409722s
+4096 38
+# elapsed time (init): 0.00510361s
+# elapsed time (simulation): 0.0397382s
+4096 40
+# elapsed time (init): 0.00511317s
+# elapsed time (simulation): 0.0343514s
+4096 42
+# elapsed time (init): 0.00489061s
+# elapsed time (simulation): 0.0346615s
+4096 44
+# elapsed time (init): 0.00692701s
+# elapsed time (simulation): 0.0280524s
+4096 46
+# elapsed time (init): 0.00465877s
+# elapsed time (simulation): 0.026371s
+4096 48
+# elapsed time (init): 0.0123164s
+# elapsed time (simulation): 0.0439828s
+4096 50
+# elapsed time (init): 0.00470233s
+# elapsed time (simulation): 0.0369827s
+4096 52
+# elapsed time (init): 0.00442333s
+# elapsed time (simulation): 0.0345549s
+4096 54
+# elapsed time (init): 0.00765349s
+# elapsed time (simulation): 0.0377478s
+4096 56
+# elapsed time (init): 0.010233s
+# elapsed time (simulation): 0.0448402s
+4096 58
+# elapsed time (init): 0.0137566s
+# elapsed time (simulation): 0.0555802s
+4096 60
+# elapsed time (init): 0.00445401s
+# elapsed time (simulation): 0.0246917s
+4096 62
+# elapsed time (init): 0.0171124s
+# elapsed time (simulation): 0.049778s
+4096 64
+# elapsed time (init): 0.00444889s
+# elapsed time (simulation): 0.021843s
+4096 66
+# elapsed time (init): 0.0167597s
+# elapsed time (simulation): 0.0423459s
+4096 68
+# elapsed time (init): 0.00429649s
+# elapsed time (simulation): 0.0224617s
+4096 70
+# elapsed time (init): 0.0187744s
+# elapsed time (simulation): 0.0481534s
+4096 72
+# elapsed time (init): 0.0179505s
+# elapsed time (simulation): 0.0373057s
+4096 74
+# elapsed time (init): 0.00435481s
+# elapsed time (simulation): 0.0239688s
+4096 76
+# elapsed time (init): 0.014976s
+# elapsed time (simulation): 0.0368891s
+4096 78
+# elapsed time (init): 0.0160933s
+# elapsed time (simulation): 0.0364879s
+4096 80
+# elapsed time (init): 0.0189024s
+# elapsed time (simulation): 0.0344125s

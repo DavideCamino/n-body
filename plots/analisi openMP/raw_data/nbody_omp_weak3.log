@@ -1,0 +1,133 @@
+rm -f nbody_sequential_ap nbody_sequential_ap_avx nbody_omp_ap nbody_sequential_bh nbody_sequential_bh_avx nbody_omp_bh nbody_hip_ap nbody_cuda_ap_double nbody_cuda_ap_float nbody_mpi_ap nbody_mpi_omp_avx_ap src/simulations/%.o
+g++ -Wall -O3 -std=c++17 -fopenmp src/simulations/omp_ap.cc -I include/ -o nbody_omp_ap -DOMP -DFLOAT #-DMONITOR_ENERGY
+g++ -Wall -O3 -std=c++17 -fopenmp src/simulations/sequential_ap.cc -I include/ -o nbody_sequential_ap -DFLOAT -DOMP #-DMONITOR_ENERGY 
+weack scalability 3
+4096 1
+# elapsed time (init): 0.0759025s
+# elapsed time (simulation): 1.17424s
+8192 2
+# elapsed time (init): 0.228518s
+# elapsed time (simulation): 2.36003s
+16384 4
+# elapsed time (init): 0.532656s
+# elapsed time (simulation): 4.72699s
+24576 6
+# elapsed time (init): 0.836131s
+# elapsed time (simulation): 7.08667s
+32768 8
+# elapsed time (init): 1.13713s
+# elapsed time (simulation): 9.43082s
+40960 10
+# elapsed time (init): 1.44167s
+# elapsed time (simulation): 11.8038s
+49152 12
+# elapsed time (init): 1.75193s
+# elapsed time (simulation): 14.2156s
+57344 14
+# elapsed time (init): 2.04929s
+# elapsed time (simulation): 16.5773s
+65536 16
+# elapsed time (init): 2.35138s
+# elapsed time (simulation): 19.1536s
+73728 18
+# elapsed time (init): 2.65505s
+# elapsed time (simulation): 21.2637s
+81920 20
+# elapsed time (init): 2.95682s
+# elapsed time (simulation): 23.6226s
+90112 22
+# elapsed time (init): 3.2571s
+# elapsed time (simulation): 25.9958s
+98304 24
+# elapsed time (init): 3.56451s
+# elapsed time (simulation): 28.3909s
+106496 26
+# elapsed time (init): 3.88619s
+# elapsed time (simulation): 30.71s
+114688 28
+# elapsed time (init): 4.17023s
+# elapsed time (simulation): 33.1097s
+122880 30
+# elapsed time (init): 4.4706s
+# elapsed time (simulation): 35.4393s
+131072 32
+# elapsed time (init): 4.77295s
+# elapsed time (simulation): 37.7857s
+139264 34
+# elapsed time (init): 5.07747s
+# elapsed time (simulation): 40.1778s
+147456 36
+# elapsed time (init): 5.37287s
+# elapsed time (simulation): 42.5596s
+139264 34
+# elapsed time (init): 5.18909s
+# elapsed time (simulation): 40.5031s
+147456 36
+# elapsed time (init): 5.38122s
+# elapsed time (simulation): 44.9101s
+155648 38
+# elapsed time (init): 5.68325s
+# elapsed time (simulation): 44.8851s
+163840 40
+# elapsed time (init): 5.98082s
+# elapsed time (simulation): 47.2623s
+172032 42
+# elapsed time (init): 6.29544s
+# elapsed time (simulation): 49.6942s
+180224 44
+# elapsed time (init): 6.58357s
+# elapsed time (simulation): 54.3736s
+188416 46
+# elapsed time (init): 6.89923s
+# elapsed time (simulation): 54.3501s
+196608 48
+# elapsed time (init): 7.19973s
+# elapsed time (simulation): 56.8595s
+204800 50
+# elapsed time (init): 7.52373s
+# elapsed time (simulation): 59.0183s
+212992 52
+# elapsed time (init): 7.79138s
+# elapsed time (simulation): 65.1955s
+221184 54
+# elapsed time (init): 8.09329s
+# elapsed time (simulation): 63.7049s
+229376 56
+# elapsed time (init): 8.42178s
+# elapsed time (simulation): 66.2943s
+237568 58
+# elapsed time (init): 8.70663s
+# elapsed time (simulation): 68.9702s
+245760 60
+# elapsed time (init): 9.0112s
+# elapsed time (simulation): 70.8982s
+253952 62
+# elapsed time (init): 9.33464s
+# elapsed time (simulation): 73.2805s
+262144 64
+# elapsed time (init): 9.63412s
+# elapsed time (simulation): 79.4226s
+270336 66
+# elapsed time (init): 9.91958s
+# elapsed time (simulation): 79.7781s
+278528 68
+# elapsed time (init): 10.234s
+# elapsed time (simulation): 80.3203s
+286720 70
+# elapsed time (init): 10.5274s
+# elapsed time (simulation): 84.503s
+294912 72
+# elapsed time (init): 10.8406s
+# elapsed time (simulation): 90.4889s
+303104 74
+# elapsed time (init): 11.1059s
+# elapsed time (simulation): 87.6463s
+311296 76
+# elapsed time (init): 10.9452s
+# elapsed time (simulation): 83.6317s
+319488 78
+# elapsed time (init): 11.2405s
+# elapsed time (simulation): 85.7871s
+327680 80
+# elapsed time (init): 11.5298s
+# elapsed time (simulation): 86.2567s
